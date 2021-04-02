@@ -11,11 +11,12 @@ The objective of this project is three folds:
 Demo: 
 
 - All services are running
+![image](https://github.com/siddhartha97/gateway-consul/blob/main/Service-Running.png)
 
-- Service 1 down and Fallback
-
-- Service 2 down and Fallback
-
+- Service 1 down and short circuit
+![image](https://github.com/siddhartha97/gateway-consul/blob/main/Service-1-down.png)
+- Service 2 down and short circuit
+![image](https://github.com/siddhartha97/gateway-consul/blob/main/Service-2-down.png)
 
 
 
