@@ -1,10 +1,10 @@
 #!/bin/bash
 
 cd service2
-./gradlew run &
+gradle run &
 cd ../service1
-./gradlew run &
+gradle run &
 cd ../gateway
-./gradlew bootRun &
+gradle bootRun &
 cd ..
 

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-kill $(ps aux | grep 'gradlew' | awk '{print $2}')
+kill $(ps aux | grep 'gradle' | awk '{print $2}')

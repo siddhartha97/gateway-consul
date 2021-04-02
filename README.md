@@ -8,6 +8,17 @@ The objective of this project is three folds:
 - Configure and utilize Consul as the main discovery service
 - Services are referenced by name and not IP/port
 
+Demo: 
+
+- All services are running
+
+- Service 1 down and Fallback
+
+- Service 2 down and Fallback
+
+
+
+
 ### Services
 There are 3 services created in this sample project:
 - [gateway](/gateway): this is the Spring Cloud Gateway
